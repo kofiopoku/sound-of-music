@@ -42,6 +42,7 @@ hr {
 }
 
 section figure img {
+clear:both;
 width:18em;
 height:18em;
 margin: 0 auto;
