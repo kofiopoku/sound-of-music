@@ -1,0 +1,73 @@
+body {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+line-height: 160%;
+}
+
+article p {
+font-size: 1.2em;
+line-height: 1.6em;
+text-align: center;
+font-weight: lighter;
+display: inline-block;
+}
+
+article h1, article h2 {
+font-size: 2em;
+font-style: italic;
+text-align: center;
+}
+
+hr {
+  margin-top: 0;
+  border-top: 0.1em solid #000000;
+}
+
+section figure img {
+width:18em;
+height:18em;
+margin: 0 auto;
+border-radius: 50%;
+}
+
+figcaption h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+figcaption span {
+font-size: 0.95em;
+display: block;
+font-weight: 100;
+color: #66CCFF;
+margin-top: 0.35em;
+text-transform: capitalize;
+}
+
+section {
+margin-bottom: 3.5em;
+}
+
+article a {
+  width: 10em;
+  margin: 0 auto;
+  display: block;
+  background-color: #66CCFF;
+  padding: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+article a:hover {
+text-decoration: none;
+background-color: #000000;
+color: #ffffff;
+}
+
+aside img {
+width: 15em;
+height: auto;
+margin: 0 auto;
+}
