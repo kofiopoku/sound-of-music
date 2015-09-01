@@ -1,6 +1,6 @@
 body {
 font-family: 'Source Sans Pro', sans-serif;
-font-size: 17px;
+font-size: 16px;
 line-height: 160%;
 margin-bottom: 2em;
 }
@@ -42,6 +42,7 @@ hr {
 }
 
 section figure img {
+clear:both;
 width:18em;
 height:18em;
 margin: 0 auto;
