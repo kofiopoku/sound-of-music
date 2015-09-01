@@ -22,19 +22,12 @@ font-weight: lighter;
 display: inline-block;
 }
 
-article h1, article h2 {
+article h1, article h2, aside h2 {
 font-size: 2em;
 font-style: italic;
 text-align: center;
 }
 
-aside h2 {
-width: 10em;
-margin: 0 auto;
-font-size: 2em;
-font-style: italic;
-text-align: center;
-}
 
 hr {
   margin-top: 0;
