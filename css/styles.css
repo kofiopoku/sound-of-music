@@ -1,7 +1,17 @@
 body {
 font-family: 'Source Sans Pro', sans-serif;
-font-size: 16px;
+font-size: 17px;
 line-height: 160%;
+margin-bottom: 2em;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
 }
 
 article p {
@@ -13,6 +23,14 @@ display: inline-block;
 }
 
 article h1, article h2 {
+font-size: 2em;
+font-style: italic;
+text-align: center;
+}
+
+aside h2 {
+width: 10em;
+margin: 0 auto;
 font-size: 2em;
 font-style: italic;
 text-align: center;
@@ -50,6 +68,13 @@ section {
 margin-bottom: 3.5em;
 }
 
+.ratings {
+  width: 5.9em;
+  margin: 0 auto;
+  color: #66CCFF;
+  margin-top: 1.5em;
+}
+
 article a {
   width: 10em;
   margin: 0 auto;
@@ -60,14 +85,62 @@ article a {
   color: #ffffff;
 }
 
+header a {
+  margin-top: 1em;
+}
+
 article a:hover {
 text-decoration: none;
 background-color: #000000;
 color: #ffffff;
 }
 
+aside {
+  margin-top: 3em;
+}
+
 aside img {
 width: 15em;
 height: auto;
 margin: 0 auto;
+}
+
+aside h2 + hr {
+width: 12em;
+margin: 1em auto;
+}
+
+aside li {
+text-align: center;
+font-weight: bold;
+margin-bottom: 1.5em;
+}
+
+aside li span {
+display: block;
+font-weight: 100;
+}
+
+footer li {
+  margin-bottom: .5em;
+}
+
+footer a {
+  background-color: #CCCCCC;
+  padding: 1em;
+  display: block;
+  color: #000000;
+  font-weight: normal;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+small {
+  text-align: center;
+  display: block;
+  line-height: 1.2em;
+  font-weight: 100;
+  font-size: .7em;
 }
