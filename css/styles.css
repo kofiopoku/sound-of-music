@@ -34,7 +34,7 @@ hr {
   border-top: 0.1em solid #000000;
 }
 
-section figure img {
+figure img {
 clear:both;
 width:18em;
 height:18em;
@@ -137,4 +137,93 @@ small {
   line-height: 1.2em;
   font-weight: 100;
   font-size: .7em;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+
+
+
+  hr {
+    display:none;
+  }
+
+  nav ul {
+    float:right !important;
+  }
+
+  nav a {
+    font-weight: normal;
+  }
+
+  article p, article h3, article h2, article h1 {
+    text-align:center;
+  }
+
+  article h1 {
+    margin-top: 1.5em;
+  }
+
+
+
+
+
+
+}
+
+@media (min-width:992px) {
+  section p {
+    float: left;
+    width: 21em;
+    position: relative;
+  }
+
+  article p, article h3, article h2, article h1 {
+    text-align:left;
+  }
+
+  .ratings {
+    display:block;
+    margin: 1em 0;
+  }
+
+  article a {
+    display: inline;
+  }
+
+  figure img {
+    margin-left: auto 0;
+  }
+
+  figcaption h3 {
+
+    text-align: left;
+    font-size: 1.2em;
+  }
+
+  figcaption span {
+  font-size: 0.95em;
+  }
+
+  .banner {
+    height: 38em;
+    overflow: hidden;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  section + a {
+    margin-left: 3em;
+  }
+
+  small {
+    margin-top: 6em;
+  }
+
+
 }
