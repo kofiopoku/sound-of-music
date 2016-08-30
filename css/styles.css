@@ -152,7 +152,7 @@ small {
   }
 
   nav ul {
-    float:right !important;
+    /*float:right !important;*/
   }
 
   nav a {
